@@ -1,0 +1,307 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v2023.4.0"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2023-08-12T06:09:29.437Z",
+				"time": 214.88199999999998,
+				"request": {
+					"method": "GET",
+					"url": "http://20.244.56.144:80/train/trains",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "[\n\t{\n\t\t\"trainName\":\"Chennai Exp\",\n\t\t\"trainNumber\":\"2344\",\n\t\t\"departureTime\":{\n\t\t\t\"Hours\":21,\n\t\t\t\"Minutes\"\t:35,\n\t\t\t\"Seconds\":0\n\t\t},\n\t\t\"seatsAvailable\":{\n\t\t\t\"sleeper\":3,\n\t\t\t\"AC\":1\n\t\t},\n\t\t\"price\":{\n\t\t\t\"sleeper\":2,\n\t\t\t\"AC\":5\n\t\t},\n\t\t\"delayedBy\":15\n\t},\n\t{\n\t\t\"trainName\":\"Hyderabad Exp\",\n\t\t\"trainNumber\":\"2341\",\n\t\t\"departureTime\":{\n\t\t\t\"Hours\":23,\n\t\t\t\"Minutes\":55,\n\t\t\t\"seconds\":0\n\t\t},\n\t\t\"seatsavailable\":{\n\t\t\t\"sleeper\":6,\n\t\t\t\"AC\":7\n\t\t},\n\t\t\"price\":{\n\t\t\t\"sleeper\":554,\n\t\t\t\"AC\":1854\n\t\t},\n\t\t\"delayedBy\":5\n\t}\n]",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Date",
+							"value": "Sat, 12 Aug 2023 05:35:04 GMT"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/plain; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "50"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "1;mode=block"
+						}
+					],
+					"content": {
+						"size": 50,
+						"mimeType": "text/plain; charset=utf-8",
+						"text": "{\"message\":\"An authorization header is required\"}\n"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 214.88199999999998,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "New Request"
+			},
+			{
+				"startedDateTime": "2023-08-12T06:09:29.437Z",
+				"time": 212.375,
+				"request": {
+					"method": "GET",
+					"url": "http://20.244.56.144/train/trains/2344",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"trainName\":\"Delhi Door hai Exp \",\n\t\"trainNumber\":\"2343\",\n\t\"departuretime\":{\n\t\t\"Hours\":9,\n\t\t\"Minutes\":45,\n\t\t\"seconds\":0\n\t},\n\t\"seatsAvailable\":{\n\t\t\"sleeper\":32,\n\t\t\"AC\":1\n\t},\n\t\"price\":{\n\t\t\"sleeper\":1,\n\t\t\"AC\":723\n\t},\n\t\"delayedBy\":3\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Date",
+							"value": "Sat, 12 Aug 2023 05:40:39 GMT"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/plain; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "50"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "1;mode=block"
+						}
+					],
+					"content": {
+						"size": 50,
+						"mimeType": "text/plain; charset=utf-8",
+						"text": "{\"message\":\"An authorization header is required\"}\n"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 212.375,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "train 2344 get"
+			},
+			{
+				"startedDateTime": "2023-08-12T06:09:29.437Z",
+				"time": 193.59699999999998,
+				"request": {
+					"method": "POST",
+					"url": "http://20.244.56.144/train/auth",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"companyName\":\"Train central\",\n\t\"clientID\":\"b46128a0-fbde-4c16-a4b1-6ae6ad718e27\",\n\t\"ownerName\":\"Ram\",\n\t\"ownerEmail\":\"ram@abc.edu\",\n\t\"rollNo\":\"1\",\n\t\"clientSecret\":\"XOyolORPayKBOdAN\n}\n\n{\n\t\"token_type\":\"Bearer\",\n\t\"access_token\":\"fgfgffg\",\n\t\"expires_in\":1682629264\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 400,
+					"statusText": "Bad Request",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Date",
+							"value": "Sat, 12 Aug 2023 05:49:09 GMT"
+						},
+						{
+							"name": "Content-Type",
+							"value": "text/plain; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "108"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"content": {
+						"size": 108,
+						"mimeType": "text/plain; charset=utf-8",
+						"text": "{\"message\":\"clientID, companyName, clientSecret, ownerName, ownerEmail \\u0026 rollNo are mandatory fields\"}\n"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 193.59699999999998,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "train auth "
+			},
+			{
+				"startedDateTime": "2023-08-12T06:09:29.437Z",
+				"time": 30000.324,
+				"request": {
+					"method": "POST",
+					"url": "http://20.244.56.144/train/register",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "companyName",
+							"value": "Train Central"
+						},
+						{
+							"name": "ownerName",
+							"value": "Ram"
+						},
+						{
+							"name": "rollNo",
+							"value": "1"
+						},
+						{
+							"name": "ownerEmail",
+							"value": "ram@abc.edu"
+						},
+						{
+							"name": "accessCode",
+							"value": "FKDLJG"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [
+						{
+							"name": "",
+							"value": ""
+						}
+					],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"companyName\":\"Train Central\",\n\t\"ownerName\":\"Ram\",\n\t\"rollNo\":\"1\",\n\t\"ownerEmail\":\"ram@abc.edu\",\n\t\"accessCode\":\"FKDLjg\"\n}\n{\n\t\"companyName\":\"Train central\",\n\t\"clientID\":\"b46128a0-fbde-4c16-a4b1-6ae6ad718e27\",\n\t\"clientSecret\":\"XOyolORPayKBOdAN\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 0,
+					"statusText": "Error",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": "",
+						"text": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 30000.324,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "train request"
+			}
+		]
+	}
+}
